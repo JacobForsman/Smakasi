@@ -1,3 +1,32 @@
-body {
-    background-color: blue;
+body, html {
+   height: 100%;
+   margin: 0;
+   background-color: blue;
+}
+
+.bg {
+    background-image: url(pictures/abstract-2501105_1920.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadein 2.3s;
+}
+
+h1 {
+    letter-spacing: 8px;
+}
+
+.bg2 {
+    background-image: url(pictures/rum-3898745_1920.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadein 2.3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
